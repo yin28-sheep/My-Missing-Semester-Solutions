@@ -5,7 +5,9 @@
 
 ### 1. 统计 words 文件 (/usr/share/dict/words) 中包含至少三个 a 且不以 's 结尾的单词个数。
 
-1. ![img2](./img/img2(1).png)
+1. 
+    
+![img2](./img/img2(1).png)
 2. 这些单词中，出现频率前三的末尾两个字母是什么？ sed 的 y 命令，或者 tr 程序也许可以帮你解决大小写的问题。
 
 ![img2](./img/img2(2).png)
@@ -21,7 +23,7 @@
 ![img2](./img/img2(4).png)
 
 > 之后的：
-  
+
 ![img2](./img/img2(5).png)
 
 ### 3. 进行原地替换听上去很有诱惑力，例如： sed s/REGEX/SUBSTITUTION/ input.txt > input.txt。但是这并不是一个明智的做法，为什么呢？还是说只有 sed 是这样的? 查看 man sed 来完成这个问题。sed s/REGEX/SUBSTITUTION/ input.txt > input.txt 表达式中后一个 input.txt 会首先被清空，而且是发生在前的。所以前面一个 input.txt 在还没有被 sed 处理时已经为空了。在使用正则处理文件前最好是首先备份文件。
@@ -30,7 +32,10 @@
 
 ### 4. 找出您最近十次开机的开机时间平均数、中位数和最长时间。
 
-1. ![img4](./img/img4(1).png)
+1. 
+![img4](./img/img4(1).png)
+
+
 ![img4](./img/img4(2).png)
 2. 精简一下：
 
