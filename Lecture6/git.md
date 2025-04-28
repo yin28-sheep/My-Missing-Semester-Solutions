@@ -25,7 +25,7 @@
 
 #### 2. 使用 git filter-branch 清除提交记录
 
-![img3](./img/img4(2).png)
+![img3](./img/img3.(2).png)
 
 ### 4. 从 GitHub 上克隆某个仓库，修改一些文件。当您使用 git stash 会发生什么？当您执行 git log –all –oneline 时会显示什么？通过 git stash pop 命令来撤销 git stash 操作，什么时候会用到这一技巧？
 
